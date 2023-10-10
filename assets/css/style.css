@@ -25,6 +25,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-flow: column wrap;
+  gap: 20px;
 }
 
 .qr-code {
@@ -57,4 +59,15 @@ body {
 .content h2 {
   font-size: 22px;
   color: var(--Darkblue);
+}
+
+.copytight {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.copytight a {
+  text-decoration: none;
+  color: hsl(212, 21%, 14%);
 }
